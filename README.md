@@ -10,6 +10,14 @@ curl 'http://localhost:8080/v1/cves?q=openssl&min_score=7.0'
  
 ## Quick start (Docker)
 
+## Script Injection Attacks: Checking Script Injection Attacks
+
+A script injection attack can occur directly within a workflow's inline script. 
+In the following example, an action uses an expression to test the validity of a pull request title, but also adds the risk of script injection:
+
+<img width="706" height="224" alt="Screen Shot 2025-08-28 at 9 53 48 AM" src="https://github.com/user-attachments/assets/da115886-e788-423d-b290-ae0edc3826d8" />
+
+
 ```bash
 docker compose up -d
 # API: http://localhost:8080/docs
