@@ -6,7 +6,7 @@ Secure, productized vulnerability intelligence microservice for **RM Smart Syste
 Ingests CVE feeds, normalizes to Postgres, matches against CycloneDX SBOMs, and exposes a REST API for policy gates.
 
 ## Calling API
-curl 'http://localhost:8080/v1/cves?q=openssl&min_score=7.0'
+curl 'http://{changeservername}:8080/v1/cves?q=openssl&min_score=7.0'
  
 ## Quick start (Docker)
 
