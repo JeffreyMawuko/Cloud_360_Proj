@@ -7,6 +7,7 @@ Ingests CVE feeds, normalizes to Postgres, matches against CycloneDX SBOMs, and 
 
 ## Calling API
 curl 'http://{changeservername}:8080/v1/cves?q=openssl&min_score=7.0'
+CVE Reports: https://openssl-library.org/news/vulnerabilities/index.html 
  
 ## Quick start (Docker)
 
