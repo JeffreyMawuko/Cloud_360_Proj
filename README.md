@@ -1,4 +1,4 @@
-# Cloud_360_Proj
+# CloudSecGuard_Proj 
 Smart System Solution SecOps Project for Cloud CVEs
 
 # CloudGuard360-DB
