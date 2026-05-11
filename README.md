@@ -1,5 +1,5 @@
 # CloudSecGuard_Proj 
-Smart System Solution SecOps Project for Cloud CVEs
+vTechUB4Dev SecOps Project for Cloud CVEs
 
 # CloudGuard360-DB
 Secure, productized vulnerability intelligence microservice for **RM Smart System Solutions**.  
